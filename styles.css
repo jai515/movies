@@ -1,0 +1,17 @@
+#display {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px black solid;
+  text-align: center;
+}
+
+.card > img {
+  margin: auto;
+}
